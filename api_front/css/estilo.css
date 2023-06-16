@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto:wght@100&display=swap');
 body{
 
-    background-image: url("../public/imagenes/EsculturaMG.jpg");
+    background-image: url("../../node_back/public/imagenes/EsculturaMG.jpg");
     margin:  auto;
     height: auto;
     width: auto;
