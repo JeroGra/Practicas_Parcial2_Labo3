@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Roboto:wght@100&display=swap');
+body{
+
+    background-image: url("../public/imagenes/EsculturaMG.jpg");
+    margin:  auto;
+    height: auto;
+    width: auto;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+
+#divfrm
+{
+    background: linear-gradient(166deg, #0C0C0C 0%, #44400E  5%, #FFF100 48%, #44400E 93%, #000 100%);
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: -12px 14px 19px 1px #D0B749, 12px -4px 21px 1px #D0B749;
+}
+
+#frm
+{
+    font-weight: bold;
+}
+
+.inputTxt
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+.btns
+{
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.btns:hover
+{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #FFF100;
+    text-shadow: 5px 5px 10px #000000;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 205px;
+    height: 45px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.btns:active
+{
+    display: inline-block;
+    margin: 0 auto;
+    background-color: #8fd41f;
+    text-shadow: 5px 5px 10px #000000;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 195px;
+    height: 35px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.inputTxt:hover
+{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 25px;
+    width: 305px;
+    height: 55px;
+    margin-top: 50px;
+    box-shadow: -8px 5px 10px 1px #fffb00, 9px 5px 10px 1px #fffb00, 0px -10px 10px 1px #fffb00, 5px 7px 10px 1px #fffb00;
+}
+
+#menu
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+   /* position: fixed;*/
+    background-color: #fffb00;
+}
+
+ul
+{
+    margin: auto;
+    display: inline-block;
+    padding: 2px;
+}
+li
+{
+    list-style: none;
+    font-weight: bold;
+    margin: 5px;
+    background: #a7d40600;
+    background-size: cover;
+    border-radius: 5px;
+}
+li:hover
+{
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+    margin: 5px;
+}
+li:active
+{
+    list-style: none;
+    font-weight: bold;
+    font-size: small;
+    margin: 5px;
+}
+
+#container
+{
+    padding: 10px;
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    opacity: 0.32;
+    background-color: #000000;
+}
